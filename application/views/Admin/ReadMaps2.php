@@ -188,15 +188,15 @@
         <script src="<?php echo base_url().'/GIS3/data/KulonProgoKec_6.js'?>"></script>
         <script src="<?php echo base_url().'/GIS3/data/DIYPoint_7.js'?>"></script>
         <script src="<?php echo base_url().'/GIS3/data/JatengPoint_8.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/BerasFix_9.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/JagungFix_10.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/UbiKayuFIX_11.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/DagingAyamFix_12.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/BawangMerahFIx_13.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/CabaiRawitFIX_14.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/DagingSapiFIX_15.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/GulaFIX_16.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/TelurAyamFIX_17.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/BerasFix2_9.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/jagungfix2_10.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/UbiKayuFIX2_11.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/DagingAyamFIX2_12.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/BawangMerahFIX2_13.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/CabaiMerahFIX_14.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/DagingSapiFIX2_15.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/GulaFix2_16.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/TelurAyamFix2_17.js'?>"></script>>
         <script>
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
@@ -1266,7 +1266,7 @@
         });
         bounds_group.addLayer(layer_JatengPoint_8);
         map.addLayer(layer_JatengPoint_8);
-        function pop_BerasFix_9(feature, layer) {
+        function pop_BerasFix2_9(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Asal</th>\
@@ -1296,46 +1296,46 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_BerasFix_9_0() {
+        function style_BerasFix2_9_0() {
             return {
-                pane: 'pane_BerasFix_9',
+                pane: 'pane_BerasFix2_9',
                 opacity: 1,
-                color: 'rgba(183,72,75,1.0)',
+                color: 'rgba(255,158,23,1.0)',
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 8.0,
+                weight: 1.0,
                 fillOpacity: 0,
                 interactive: true,
             }
         }
-        function style_BerasFix_9_1() {
+        function style_BerasFix2_9_1() {
             return {
-                pane: 'pane_BerasFix_9',
+                pane: 'pane_BerasFix2_9',
                 interactive: true,
             }
         }
-        function style_BerasFix_9_2() {
+        function style_BerasFix2_9_2() {
             return {
-                pane: 'pane_BerasFix_9',
+                pane: 'pane_BerasFix2_9',
                 interactive: true,
             }
         }
-        map.createPane('pane_BerasFix_9');
-        map.getPane('pane_BerasFix_9').style.zIndex = 409;
-        map.getPane('pane_BerasFix_9').style['mix-blend-mode'] = 'normal';
-        var layer_BerasFix_9 = new L.geoJson.multiStyle(json_BerasFix_9, {
+        map.createPane('pane_BerasFix2_9');
+        map.getPane('pane_BerasFix2_9').style.zIndex = 409;
+        map.getPane('pane_BerasFix2_9').style['mix-blend-mode'] = 'normal';
+        var layer_BerasFix2_9 = new L.geoJson.multiStyle(json_BerasFix2_9, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_BerasFix_9',
-            layerName: 'layer_BerasFix_9',
-            pane: 'pane_BerasFix_9',
-            onEachFeature: pop_BerasFix_9,
-            styles: [style_BerasFix_9_0,style_BerasFix_9_1,style_BerasFix_9_2,]
+            dataVar: 'json_BerasFix2_9',
+            layerName: 'layer_BerasFix2_9',
+            pane: 'pane_BerasFix2_9',
+            onEachFeature: pop_BerasFix2_9,
+            styles: [style_BerasFix2_9_0,style_BerasFix2_9_1,style_BerasFix2_9_2,]
         });
-        bounds_group.addLayer(layer_BerasFix_9);
-        map.addLayer(layer_BerasFix_9);
-        function pop_JagungFix_10(feature, layer) {
+        bounds_group.addLayer(layer_BerasFix2_9);
+        map.addLayer(layer_BerasFix2_9);
+        function pop_jagungfix2_10(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Asal</th>\
@@ -1365,46 +1365,34 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_JagungFix_10_0() {
+        function style_jagungfix2_10_0() {
             return {
-                pane: 'pane_JagungFix_10',
+                pane: 'pane_jagungfix2_10',
                 opacity: 1,
-                color: 'rgba(243,166,178,1.0)',
+                color: 'rgba(125,139,143,1.0)',
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 8.0,
+                weight: 1.0,
                 fillOpacity: 0,
                 interactive: true,
             }
         }
-        function style_JagungFix_10_1() {
-            return {
-                pane: 'pane_JagungFix_10',
-                interactive: true,
-            }
-        }
-        function style_JagungFix_10_2() {
-            return {
-                pane: 'pane_JagungFix_10',
-                interactive: true,
-            }
-        }
-        map.createPane('pane_JagungFix_10');
-        map.getPane('pane_JagungFix_10').style.zIndex = 410;
-        map.getPane('pane_JagungFix_10').style['mix-blend-mode'] = 'normal';
-        var layer_JagungFix_10 = new L.geoJson.multiStyle(json_JagungFix_10, {
+        map.createPane('pane_jagungfix2_10');
+        map.getPane('pane_jagungfix2_10').style.zIndex = 410;
+        map.getPane('pane_jagungfix2_10').style['mix-blend-mode'] = 'normal';
+        var layer_jagungfix2_10 = new L.geoJson(json_jagungfix2_10, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_JagungFix_10',
-            layerName: 'layer_JagungFix_10',
-            pane: 'pane_JagungFix_10',
-            onEachFeature: pop_JagungFix_10,
-            styles: [style_JagungFix_10_0,style_JagungFix_10_1,style_JagungFix_10_2,]
+            dataVar: 'json_jagungfix2_10',
+            layerName: 'layer_jagungfix2_10',
+            pane: 'pane_jagungfix2_10',
+            onEachFeature: pop_jagungfix2_10,
+            style: style_jagungfix2_10_0,
         });
-        bounds_group.addLayer(layer_JagungFix_10);
-        map.addLayer(layer_JagungFix_10);
-        function pop_UbiKayuFIX_11(feature, layer) {
+        bounds_group.addLayer(layer_jagungfix2_10);
+        map.addLayer(layer_jagungfix2_10);
+        function pop_UbiKayuFIX2_11(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Asal</th>\
@@ -1434,11 +1422,11 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_UbiKayuFIX_11_0() {
+        function style_UbiKayuFIX2_11_0() {
             return {
-                pane: 'pane_UbiKayuFIX_11',
+                pane: 'pane_UbiKayuFIX2_11',
                 opacity: 1,
-                color: 'rgba(114,155,111,1.0)',
+                color: 'rgba(238,12,42,1.0)',
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
@@ -1447,33 +1435,33 @@
                 interactive: true,
             }
         }
-        function style_UbiKayuFIX_11_1() {
+        function style_UbiKayuFIX2_11_1() {
             return {
-                pane: 'pane_UbiKayuFIX_11',
+                pane: 'pane_UbiKayuFIX2_11',
                 interactive: true,
             }
         }
-        function style_UbiKayuFIX_11_2() {
+        function style_UbiKayuFIX2_11_2() {
             return {
-                pane: 'pane_UbiKayuFIX_11',
+                pane: 'pane_UbiKayuFIX2_11',
                 interactive: true,
             }
         }
-        map.createPane('pane_UbiKayuFIX_11');
-        map.getPane('pane_UbiKayuFIX_11').style.zIndex = 411;
-        map.getPane('pane_UbiKayuFIX_11').style['mix-blend-mode'] = 'normal';
-        var layer_UbiKayuFIX_11 = new L.geoJson.multiStyle(json_UbiKayuFIX_11, {
+        map.createPane('pane_UbiKayuFIX2_11');
+        map.getPane('pane_UbiKayuFIX2_11').style.zIndex = 411;
+        map.getPane('pane_UbiKayuFIX2_11').style['mix-blend-mode'] = 'normal';
+        var layer_UbiKayuFIX2_11 = new L.geoJson.multiStyle(json_UbiKayuFIX2_11, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_UbiKayuFIX_11',
-            layerName: 'layer_UbiKayuFIX_11',
-            pane: 'pane_UbiKayuFIX_11',
-            onEachFeature: pop_UbiKayuFIX_11,
-            styles: [style_UbiKayuFIX_11_0,style_UbiKayuFIX_11_1,style_UbiKayuFIX_11_2,]
+            dataVar: 'json_UbiKayuFIX2_11',
+            layerName: 'layer_UbiKayuFIX2_11',
+            pane: 'pane_UbiKayuFIX2_11',
+            onEachFeature: pop_UbiKayuFIX2_11,
+            styles: [style_UbiKayuFIX2_11_0,style_UbiKayuFIX2_11_1,style_UbiKayuFIX2_11_2,]
         });
-        bounds_group.addLayer(layer_UbiKayuFIX_11);
-        map.addLayer(layer_UbiKayuFIX_11);
-        function pop_DagingAyamFix_12(feature, layer) {
+        bounds_group.addLayer(layer_UbiKayuFIX2_11);
+        map.addLayer(layer_UbiKayuFIX2_11);
+        function pop_DagingAyamFIX2_12(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Asal</th>\
@@ -1503,11 +1491,11 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_DagingAyamFix_12_0() {
+        function style_DagingAyamFIX2_12_0() {
             return {
-                pane: 'pane_DagingAyamFix_12',
+                pane: 'pane_DagingAyamFIX2_12',
                 opacity: 1,
-                color: 'rgba(196,60,57,1.0)',
+                color: 'rgba(90,223,240,1.0)',
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
@@ -1516,33 +1504,33 @@
                 interactive: true,
             }
         }
-        function style_DagingAyamFix_12_1() {
+        function style_DagingAyamFIX2_12_1() {
             return {
-                pane: 'pane_DagingAyamFix_12',
+                pane: 'pane_DagingAyamFIX2_12',
                 interactive: true,
             }
         }
-        function style_DagingAyamFix_12_2() {
+        function style_DagingAyamFIX2_12_2() {
             return {
-                pane: 'pane_DagingAyamFix_12',
+                pane: 'pane_DagingAyamFIX2_12',
                 interactive: true,
             }
         }
-        map.createPane('pane_DagingAyamFix_12');
-        map.getPane('pane_DagingAyamFix_12').style.zIndex = 412;
-        map.getPane('pane_DagingAyamFix_12').style['mix-blend-mode'] = 'normal';
-        var layer_DagingAyamFix_12 = new L.geoJson.multiStyle(json_DagingAyamFix_12, {
+        map.createPane('pane_DagingAyamFIX2_12');
+        map.getPane('pane_DagingAyamFIX2_12').style.zIndex = 412;
+        map.getPane('pane_DagingAyamFIX2_12').style['mix-blend-mode'] = 'normal';
+        var layer_DagingAyamFIX2_12 = new L.geoJson.multiStyle(json_DagingAyamFIX2_12, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_DagingAyamFix_12',
-            layerName: 'layer_DagingAyamFix_12',
-            pane: 'pane_DagingAyamFix_12',
-            onEachFeature: pop_DagingAyamFix_12,
-            styles: [style_DagingAyamFix_12_0,style_DagingAyamFix_12_1,style_DagingAyamFix_12_2,]
+            dataVar: 'json_DagingAyamFIX2_12',
+            layerName: 'layer_DagingAyamFIX2_12',
+            pane: 'pane_DagingAyamFIX2_12',
+            onEachFeature: pop_DagingAyamFIX2_12,
+            styles: [style_DagingAyamFIX2_12_0,style_DagingAyamFIX2_12_1,style_DagingAyamFIX2_12_2,]
         });
-        bounds_group.addLayer(layer_DagingAyamFix_12);
-        map.addLayer(layer_DagingAyamFix_12);
-        function pop_BawangMerahFIx_13(feature, layer) {
+        bounds_group.addLayer(layer_DagingAyamFIX2_12);
+        map.addLayer(layer_DagingAyamFIX2_12);
+        function pop_BawangMerahFIX2_13(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Asal</th>\
@@ -1572,11 +1560,11 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_BawangMerahFIx_13_0() {
+        function style_BawangMerahFIX2_13_0() {
             return {
-                pane: 'pane_BawangMerahFIx_13',
+                pane: 'pane_BawangMerahFIX2_13',
                 opacity: 1,
-                color: 'rgba(141,90,153,1.0)',
+                color: 'rgba(231,113,72,1.0)',
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
@@ -1585,33 +1573,33 @@
                 interactive: true,
             }
         }
-        function style_BawangMerahFIx_13_1() {
+        function style_BawangMerahFIX2_13_1() {
             return {
-                pane: 'pane_BawangMerahFIx_13',
+                pane: 'pane_BawangMerahFIX2_13',
                 interactive: true,
             }
         }
-        function style_BawangMerahFIx_13_2() {
+        function style_BawangMerahFIX2_13_2() {
             return {
-                pane: 'pane_BawangMerahFIx_13',
+                pane: 'pane_BawangMerahFIX2_13',
                 interactive: true,
             }
         }
-        map.createPane('pane_BawangMerahFIx_13');
-        map.getPane('pane_BawangMerahFIx_13').style.zIndex = 413;
-        map.getPane('pane_BawangMerahFIx_13').style['mix-blend-mode'] = 'normal';
-        var layer_BawangMerahFIx_13 = new L.geoJson.multiStyle(json_BawangMerahFIx_13, {
+        map.createPane('pane_BawangMerahFIX2_13');
+        map.getPane('pane_BawangMerahFIX2_13').style.zIndex = 413;
+        map.getPane('pane_BawangMerahFIX2_13').style['mix-blend-mode'] = 'normal';
+        var layer_BawangMerahFIX2_13 = new L.geoJson.multiStyle(json_BawangMerahFIX2_13, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_BawangMerahFIx_13',
-            layerName: 'layer_BawangMerahFIx_13',
-            pane: 'pane_BawangMerahFIx_13',
-            onEachFeature: pop_BawangMerahFIx_13,
-            styles: [style_BawangMerahFIx_13_0,style_BawangMerahFIx_13_1,style_BawangMerahFIx_13_2,]
+            dataVar: 'json_BawangMerahFIX2_13',
+            layerName: 'layer_BawangMerahFIX2_13',
+            pane: 'pane_BawangMerahFIX2_13',
+            onEachFeature: pop_BawangMerahFIX2_13,
+            styles: [style_BawangMerahFIX2_13_0,style_BawangMerahFIX2_13_1,style_BawangMerahFIX2_13_2,]
         });
-        bounds_group.addLayer(layer_BawangMerahFIx_13);
-        map.addLayer(layer_BawangMerahFIx_13);
-        function pop_CabaiRawitFIX_14(feature, layer) {
+        bounds_group.addLayer(layer_BawangMerahFIX2_13);
+        map.addLayer(layer_BawangMerahFIX2_13);
+        function pop_CabaiMerahFIX_14(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Asal</th>\
@@ -1641,11 +1629,11 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_CabaiRawitFIX_14_0() {
+        function style_CabaiMerahFIX_14_0() {
             return {
-                pane: 'pane_CabaiRawitFIX_14',
+                pane: 'pane_CabaiMerahFIX_14',
                 opacity: 1,
-                color: 'rgba(145,82,45,1.0)',
+                color: 'rgba(152,125,183,1.0)',
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
@@ -1654,33 +1642,33 @@
                 interactive: true,
             }
         }
-        function style_CabaiRawitFIX_14_1() {
+        function style_CabaiMerahFIX_14_1() {
             return {
-                pane: 'pane_CabaiRawitFIX_14',
+                pane: 'pane_CabaiMerahFIX_14',
                 interactive: true,
             }
         }
-        function style_CabaiRawitFIX_14_2() {
+        function style_CabaiMerahFIX_14_2() {
             return {
-                pane: 'pane_CabaiRawitFIX_14',
+                pane: 'pane_CabaiMerahFIX_14',
                 interactive: true,
             }
         }
-        map.createPane('pane_CabaiRawitFIX_14');
-        map.getPane('pane_CabaiRawitFIX_14').style.zIndex = 414;
-        map.getPane('pane_CabaiRawitFIX_14').style['mix-blend-mode'] = 'normal';
-        var layer_CabaiRawitFIX_14 = new L.geoJson.multiStyle(json_CabaiRawitFIX_14, {
+        map.createPane('pane_CabaiMerahFIX_14');
+        map.getPane('pane_CabaiMerahFIX_14').style.zIndex = 414;
+        map.getPane('pane_CabaiMerahFIX_14').style['mix-blend-mode'] = 'normal';
+        var layer_CabaiMerahFIX_14 = new L.geoJson.multiStyle(json_CabaiMerahFIX_14, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_CabaiRawitFIX_14',
-            layerName: 'layer_CabaiRawitFIX_14',
-            pane: 'pane_CabaiRawitFIX_14',
-            onEachFeature: pop_CabaiRawitFIX_14,
-            styles: [style_CabaiRawitFIX_14_0,style_CabaiRawitFIX_14_1,style_CabaiRawitFIX_14_2,]
+            dataVar: 'json_CabaiMerahFIX_14',
+            layerName: 'layer_CabaiMerahFIX_14',
+            pane: 'pane_CabaiMerahFIX_14',
+            onEachFeature: pop_CabaiMerahFIX_14,
+            styles: [style_CabaiMerahFIX_14_0,style_CabaiMerahFIX_14_1,style_CabaiMerahFIX_14_2,]
         });
-        bounds_group.addLayer(layer_CabaiRawitFIX_14);
-        map.addLayer(layer_CabaiRawitFIX_14);
-        function pop_DagingSapiFIX_15(feature, layer) {
+        bounds_group.addLayer(layer_CabaiMerahFIX_14);
+        map.addLayer(layer_CabaiMerahFIX_14);
+        function pop_DagingSapiFIX2_15(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Asal</th>\
@@ -1710,11 +1698,67 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_DagingSapiFIX_15_0() {
+        function style_DagingSapiFIX2_15_0() {
             return {
-                pane: 'pane_DagingSapiFIX_15',
+                pane: 'pane_DagingSapiFIX2_15',
                 opacity: 1,
-                color: 'rgba(80,158,150,1.0)',
+                color: 'rgba(190,207,80,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 1.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        map.createPane('pane_DagingSapiFIX2_15');
+        map.getPane('pane_DagingSapiFIX2_15').style.zIndex = 415;
+        map.getPane('pane_DagingSapiFIX2_15').style['mix-blend-mode'] = 'normal';
+        var layer_DagingSapiFIX2_15 = new L.geoJson(json_DagingSapiFIX2_15, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_DagingSapiFIX2_15',
+            layerName: 'layer_DagingSapiFIX2_15',
+            pane: 'pane_DagingSapiFIX2_15',
+            onEachFeature: pop_DagingSapiFIX2_15,
+            style: style_DagingSapiFIX2_15_0,
+        });
+        bounds_group.addLayer(layer_DagingSapiFIX2_15);
+        map.addLayer(layer_DagingSapiFIX2_15);
+        function pop_GulaFix2_16(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2"><strong>Asal</strong><br />' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Tujuan</th>\
+                        <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Komoditas</th>\
+                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Pelaku Pasar</th>\
+                        <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Volume Produksi</th>\
+                        <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Prosentase Pengiriman</th>\
+                        <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_GulaFix2_16_0() {
+            return {
+                pane: 'pane_GulaFix2_16',
+                opacity: 1,
+                color: 'rgba(225,89,137,1.0)',
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
@@ -1723,33 +1767,33 @@
                 interactive: true,
             }
         }
-        function style_DagingSapiFIX_15_1() {
+        function style_GulaFix2_16_1() {
             return {
-                pane: 'pane_DagingSapiFIX_15',
+                pane: 'pane_GulaFix2_16',
                 interactive: true,
             }
         }
-        function style_DagingSapiFIX_15_2() {
+        function style_GulaFix2_16_2() {
             return {
-                pane: 'pane_DagingSapiFIX_15',
+                pane: 'pane_GulaFix2_16',
                 interactive: true,
             }
         }
-        map.createPane('pane_DagingSapiFIX_15');
-        map.getPane('pane_DagingSapiFIX_15').style.zIndex = 415;
-        map.getPane('pane_DagingSapiFIX_15').style['mix-blend-mode'] = 'normal';
-        var layer_DagingSapiFIX_15 = new L.geoJson.multiStyle(json_DagingSapiFIX_15, {
+        map.createPane('pane_GulaFix2_16');
+        map.getPane('pane_GulaFix2_16').style.zIndex = 416;
+        map.getPane('pane_GulaFix2_16').style['mix-blend-mode'] = 'normal';
+        var layer_GulaFix2_16 = new L.geoJson.multiStyle(json_GulaFix2_16, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_DagingSapiFIX_15',
-            layerName: 'layer_DagingSapiFIX_15',
-            pane: 'pane_DagingSapiFIX_15',
-            onEachFeature: pop_DagingSapiFIX_15,
-            styles: [style_DagingSapiFIX_15_0,style_DagingSapiFIX_15_1,style_DagingSapiFIX_15_2,]
+            dataVar: 'json_GulaFix2_16',
+            layerName: 'layer_GulaFix2_16',
+            pane: 'pane_GulaFix2_16',
+            onEachFeature: pop_GulaFix2_16,
+            styles: [style_GulaFix2_16_0,style_GulaFix2_16_1,style_GulaFix2_16_2,]
         });
-        bounds_group.addLayer(layer_DagingSapiFIX_15);
-        map.addLayer(layer_DagingSapiFIX_15);
-        function pop_GulaFIX_16(feature, layer) {
+        bounds_group.addLayer(layer_GulaFix2_16);
+        map.addLayer(layer_GulaFix2_16);
+        function pop_TelurAyamFix2_17(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Asal</th>\
@@ -1779,11 +1823,11 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_GulaFIX_16_0() {
+        function style_TelurAyamFix2_17_0() {
             return {
-                pane: 'pane_GulaFIX_16',
+                pane: 'pane_TelurAyamFix2_17',
                 opacity: 1,
-                color: 'rgba(43,84,136,1.0)',
+                color: 'rgba(229,182,54,1.0)',
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
@@ -1792,103 +1836,34 @@
                 interactive: true,
             }
         }
-        function style_GulaFIX_16_1() {
+        function style_TelurAyamFix2_17_1() {
             return {
-                pane: 'pane_GulaFIX_16',
+                pane: 'pane_TelurAyamFix2_17',
                 interactive: true,
             }
         }
-        function style_GulaFIX_16_2() {
+        function style_TelurAyamFix2_17_2() {
             return {
-                pane: 'pane_GulaFIX_16',
+                pane: 'pane_TelurAyamFix2_17',
                 interactive: true,
             }
         }
-        map.createPane('pane_GulaFIX_16');
-        map.getPane('pane_GulaFIX_16').style.zIndex = 416;
-        map.getPane('pane_GulaFIX_16').style['mix-blend-mode'] = 'normal';
-        var layer_GulaFIX_16 = new L.geoJson.multiStyle(json_GulaFIX_16, {
+        map.createPane('pane_TelurAyamFix2_17');
+        map.getPane('pane_TelurAyamFix2_17').style.zIndex = 417;
+        map.getPane('pane_TelurAyamFix2_17').style['mix-blend-mode'] = 'normal';
+        var layer_TelurAyamFix2_17 = new L.geoJson.multiStyle(json_TelurAyamFix2_17, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_GulaFIX_16',
-            layerName: 'layer_GulaFIX_16',
-            pane: 'pane_GulaFIX_16',
-            onEachFeature: pop_GulaFIX_16,
-            styles: [style_GulaFIX_16_0,style_GulaFIX_16_1,style_GulaFIX_16_2,]
+            dataVar: 'json_TelurAyamFix2_17',
+            layerName: 'layer_TelurAyamFix2_17',
+            pane: 'pane_TelurAyamFix2_17',
+            onEachFeature: pop_TelurAyamFix2_17,
+            styles: [style_TelurAyamFix2_17_0,style_TelurAyamFix2_17_1,style_TelurAyamFix2_17_2,]
         });
-        bounds_group.addLayer(layer_GulaFIX_16);
-        map.addLayer(layer_GulaFIX_16);
-        function pop_TelurAyamFIX_17(feature, layer) {
-            var popupContent = '<table>\
-                    <tr>\
-                        <th scope="row">Asal</th>\
-                        <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Tujuan</th>\
-                        <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Komoditas</th>\
-                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Pelaku Pasar</th>\
-                        <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Volume Produksi</th>\
-                        <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Prosentase Pengiriman</th>\
-                        <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                </table>';
-            layer.bindPopup(popupContent, {maxHeight: 400});
-        }
-
-        function style_TelurAyamFIX_17_0() {
-            return {
-                pane: 'pane_TelurAyamFIX_17',
-                opacity: 1,
-                color: 'rgba(189,49,49,1.0)',
-                dashArray: '',
-                lineCap: 'square',
-                lineJoin: 'bevel',
-                weight: 8.0,
-                fillOpacity: 0,
-                interactive: true,
-            }
-        }
-        function style_TelurAyamFIX_17_1() {
-            return {
-                pane: 'pane_TelurAyamFIX_17',
-                interactive: true,
-            }
-        }
-        function style_TelurAyamFIX_17_2() {
-            return {
-                pane: 'pane_TelurAyamFIX_17',
-                interactive: true,
-            }
-        }
-        map.createPane('pane_TelurAyamFIX_17');
-        map.getPane('pane_TelurAyamFIX_17').style.zIndex = 417;
-        map.getPane('pane_TelurAyamFIX_17').style['mix-blend-mode'] = 'normal';
-        var layer_TelurAyamFIX_17 = new L.geoJson.multiStyle(json_TelurAyamFIX_17, {
-            attribution: '',
-            interactive: true,
-            dataVar: 'json_TelurAyamFIX_17',
-            layerName: 'layer_TelurAyamFIX_17',
-            pane: 'pane_TelurAyamFIX_17',
-            onEachFeature: pop_TelurAyamFIX_17,
-            styles: [style_TelurAyamFIX_17_0,style_TelurAyamFIX_17_1,style_TelurAyamFIX_17_2,]
-        });
-        bounds_group.addLayer(layer_TelurAyamFIX_17);
-        map.addLayer(layer_TelurAyamFIX_17);
+        bounds_group.addLayer(layer_TelurAyamFix2_17);
+        map.addLayer(layer_TelurAyamFix2_17);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'Telur Ayam': layer_TelurAyamFIX_17,'Gula': layer_GulaFIX_16,'Daging Sapi': layer_DagingSapiFIX_15,'Cabai Rawit': layer_CabaiRawitFIX_14,'Bawang Merah': layer_BawangMerahFIx_13,'Daging Ayam': layer_DagingAyamFix_12,'Ubi Kayu': layer_UbiKayuFIX_11,'Jagung': layer_JagungFix_10,'Beras': layer_BerasFix_9,'Jateng Point': layer_JatengPoint_8,'DIY Point': layer_DIYPoint_7,'Kulon Progo<br />': layer_KulonProgoKec_6,'Yogyakarta<br />': layer_YogyakartaKec_5,'Bantul<br />': layer_BantulKec_4,'Gunung Kidul<br />': layer_GunungKidulKec_3,'Sleman<br />': layer_SlemanKecSample_2,'DIY Layer<br />': layer_DIYCombine_1,"OpenStreetMap": layer_OpenStreetMap_0,}).addTo(map);
+        L.control.layers(baseMaps,{'Telur Ayam': layer_TelurAyamFix2_17,'Gula': layer_GulaFix2_16,'Daging Sapi': layer_DagingSapiFIX2_15,'Cabai Merah': layer_CabaiMerahFIX_14,'Bawang Merah': layer_BawangMerahFIX2_13,'Daging Ayam': layer_DagingAyamFIX2_12,'Ubi Kayu': layer_UbiKayuFIX2_11,'Jagung': layer_jagungfix2_10,'Beras': layer_BerasFix2_9,'Jateng Point': layer_JatengPoint_8,'DIY Point': layer_DIYPoint_7,'Kulon Progo<br />': layer_KulonProgoKec_6,'Yogyakarta<br />': layer_YogyakartaKec_5,'Bantul<br />': layer_BantulKec_4,'Gunung Kidul<br />': layer_GunungKidulKec_3,'Sleman<br />': layer_SlemanKecSample_2,'DIY Layer<br />': layer_DIYCombine_1,"OpenStreetMap": layer_OpenStreetMap_0,}).addTo(map);
         setBounds();
         </script>            
         </div>
