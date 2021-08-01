@@ -1269,23 +1269,27 @@
         function pop_BerasFix2_9(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
+                        <th scope="row">Komoditas</th>\
+                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Asal</th>\
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Harga Eceran (Rupiah)</th>\
+                        <td>' '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Komoditas</th>\
-                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi</th>\
+                        <th scope="row">Volume Produksi (Kg)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1338,23 +1342,27 @@
         function pop_jagungfix2_10(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
+                        <th scope="row">Komoditas</th>\
+                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Asal</th>\
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Harga Eceran (Rupiah)</th>\
+                        <td>' '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Komoditas</th>\
-                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi</th>\
+                        <th scope="row">Volume Produksi (Kg)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1395,23 +1403,27 @@
         function pop_UbiKayuFIX2_11(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
+                        <th scope="row">Komoditas</th>\
+                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Asal</th>\
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Harga Eceran (Rupiah)</th>\
+                        <td>' '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Komoditas</th>\
-                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi</th>\
+                        <th scope="row">Volume Produksi (Kg)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1464,23 +1476,27 @@
         function pop_DagingAyamFIX2_12(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
+                        <th scope="row">Komoditas</th>\
+                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Asal</th>\
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Harga Eceran (Rupiah)</th>\
+                        <td>' '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Komoditas</th>\
-                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi</th>\
+                        <th scope="row">Volume Produksi (Kg)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1533,23 +1549,27 @@
         function pop_BawangMerahFIX2_13(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
+                        <th scope="row">Komoditas</th>\
+                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Asal</th>\
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Harga Eceran (Rupiah)</th>\
+                        <td>' '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Komoditas</th>\
-                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi</th>\
+                        <th scope="row">Volume Produksi (Kg)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1602,23 +1622,27 @@
         function pop_CabaiMerahFIX_14(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
+                        <th scope="row">Komoditas</th>\
+                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Asal</th>\
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Harga Eceran (Rupiah)</th>\
+                        <td>' '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Komoditas</th>\
-                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi</th>\
+                        <th scope="row">Volume Produksi (Kg)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1671,23 +1695,27 @@
         function pop_DagingSapiFIX2_15(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
+                        <th scope="row">Komoditas</th>\
+                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Asal</th>\
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Harga Eceran (Rupiah)</th>\
+                        <td>' '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Komoditas</th>\
-                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi</th>\
+                        <th scope="row">Volume Produksi (Kg)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1728,22 +1756,27 @@
         function pop_GulaFix2_16(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2"><strong>Asal</strong><br />' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">Komoditas</th>\
+                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Asal</th>\
+                        <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Harga Eceran (Rupiah)</th>\
+                        <td>' '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Komoditas</th>\
-                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi</th>\
+                        <th scope="row">Volume Produksi (Kg)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1796,23 +1829,27 @@
         function pop_TelurAyamFix2_17(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
+                        <th scope="row">Komoditas</th>\
+                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Asal</th>\
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Harga Eceran (Rupiah)</th>\
+                        <td>' '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Komoditas</th>\
-                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi</th>\
+                        <th scope="row">Volume Produksi (Kg)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
