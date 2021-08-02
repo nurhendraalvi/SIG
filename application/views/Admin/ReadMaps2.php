@@ -7,15 +7,8 @@
         <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <link rel="stylesheet" href="<?php echo base_url().'/GIS3/css/leaflet.css'?>">
-        <link rel="stylesheet" href="<?php echo base_url().'/GIS3/css/qgis2web.css'?>"><link rel="stylesheet" href="<?php echo base_url().'/GIS3/css/fontawesome-all.min.css'?>">
-        <link rel="stylesheet" href="<?php echo base_url().'css/leaflet-control-geocoder.Geocoder.css'?>">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <link rel="stylesheet" href="<?php echo base_url().'/GIS4/css/leaflet.css'?>">
+        <link rel="stylesheet" href="<?php echo base_url().'/GIS4/css/qgis2web.css'?>"><link rel="stylesheet" href="<?php echo base_url().'/GIS4/css/fontawesome-all.min.css'?>">
         <style>
         #map {
             width: 1004px;
@@ -170,34 +163,34 @@
                 <div class="card-body">
             <div id="map">
         </div>
-        <script src="<?php echo base_url().'/GIS3/js/qgis2web_expressions.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/js/leaflet.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/js/multi-style-layer.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/js/leaflet.rotatedMarker.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/js/leaflet.pattern.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/js/leaflet-hash.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/js/Autolinker.min.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/js/rbush.min.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/js/labelgun.min.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/js/labels.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/DIYCombine_1.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/SlemanKecSample_2.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/GunungKidulKec_3.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/BantulKec_4.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/YogyakartaKec_5.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/KulonProgoKec_6.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/DIYPoint_7.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/JatengPoint_8.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/BerasFix2_9.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/jagungfix2_10.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/UbiKayuFIX2_11.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/DagingAyamFIX2_12.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/BawangMerahFIX2_13.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/CabaiRawitFIX2_14.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/CabaiMerahFIX_15.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/DagingSapiFIX2_16.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/GulaFix2_17.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/TelurAyamFix2_18.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/js/qgis2web_expressions.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/js/leaflet.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/js/multi-style-layer.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/js/leaflet.rotatedMarker.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/js/leaflet.pattern.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/js/leaflet-hash.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/js/Autolinker.min.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/js/rbush.min.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/js/labelgun.min.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/js/labels.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/DIYCombine_1.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/SlemanKecSample_2.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/GunungKidulKec_3.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/BantulKec_4.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/YogyakartaKec_5.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/KulonProgoKec_6.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/DIYPoint_7.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/JatengPoint_8.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/BerasFix2_9.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/'?>data/jagungfix2_10.js"></script>
+        <script src="<?php echo base_url().'/GIS4/data/UbiKayuFIX2_11.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/DagingAyamFIX2_12.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/BawangMerahFIX2_13.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/CabaiRawitFIX2_14.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/CabaiMerahFIX_15.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/DagingSapiFIX2_16.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/GulaFix2_17.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS4/data/TelurAyamFix2_18.js'?>"></script>
         <script>
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
@@ -1270,32 +1263,36 @@
         function pop_BerasFix2_9(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">Komoditas</th>\
-                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">Asal</th>\
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td> </td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Pelaku Pasar</th>\
+                        <th scope="row">Komoditas</th>\
+                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Aktor</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (KG/Ton)</th>\
+                        <th scope="row">VProduksi</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Prosentase Pengiriman</th>\
+                        <th scope="row">Pengiriman</th>\
                         <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">HA</th>\
+                        <td>' + (feature.properties['HA'] !== null ? autolinker.link(feature.properties['HA'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">HT</th>\
+                        <td>' + (feature.properties['HT'] !== null ? autolinker.link(feature.properties['HT'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -1309,7 +1306,7 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 1.0,
+                weight: 8.0,
                 fillOpacity: 0,
                 interactive: true,
             }
@@ -1351,26 +1348,30 @@
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td> </td>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HA'] !== null ? autolinker.link(feature.properties['HA'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HT'] !== null ? autolinker.link(feature.properties['HT'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (KG/Ton)</th>\
+                        <th scope="row">Volume Produksi</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Prosentase Pengiriman</th>\
                         <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                </table>';
+                    </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
@@ -1382,22 +1383,34 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 1.0,
+                weight: 8.0,
                 fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        function style_jagungfix2_10_1() {
+            return {
+                pane: 'pane_jagungfix2_10',
+                interactive: true,
+            }
+        }
+        function style_jagungfix2_10_2() {
+            return {
+                pane: 'pane_jagungfix2_10',
                 interactive: true,
             }
         }
         map.createPane('pane_jagungfix2_10');
         map.getPane('pane_jagungfix2_10').style.zIndex = 410;
         map.getPane('pane_jagungfix2_10').style['mix-blend-mode'] = 'normal';
-        var layer_jagungfix2_10 = new L.geoJson(json_jagungfix2_10, {
+        var layer_jagungfix2_10 = new L.geoJson.multiStyle(json_jagungfix2_10, {
             attribution: '',
             interactive: true,
             dataVar: 'json_jagungfix2_10',
             layerName: 'layer_jagungfix2_10',
             pane: 'pane_jagungfix2_10',
             onEachFeature: pop_jagungfix2_10,
-            style: style_jagungfix2_10_0,
+            styles: [style_jagungfix2_10_0,style_jagungfix2_10_1,style_jagungfix2_10_2,]
         });
         bounds_group.addLayer(layer_jagungfix2_10);
         map.addLayer(layer_jagungfix2_10);
@@ -1412,26 +1425,30 @@
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td> </td>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HA'] !== null ? autolinker.link(feature.properties['HA'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HT'] !== null ? autolinker.link(feature.properties['HT'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (KG/Ton)</th>\
+                        <th scope="row">Volume Produksi</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Prosentase Pengiriman</th>\
                         <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                </table>';
+                    </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
@@ -1485,26 +1502,30 @@
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td> </td>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HA'] !== null ? autolinker.link(feature.properties['HA'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HT'] !== null ? autolinker.link(feature.properties['HT'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (KG/Ton)</th>\
+                        <th scope="row">Volume Produksi</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Prosentase Pengiriman</th>\
                         <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                </table>';
+                    </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
@@ -1558,26 +1579,30 @@
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td> </td>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HA'] !== null ? autolinker.link(feature.properties['HA'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HT'] !== null ? autolinker.link(feature.properties['HT'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (KG/Ton)</th>\
+                        <th scope="row">Volume Produksi</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Prosentase Pengiriman</th>\
                         <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                </table>';
+                    </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
@@ -1631,26 +1656,30 @@
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td> </td>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HA'] !== null ? autolinker.link(feature.properties['HA'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HT'] !== null ? autolinker.link(feature.properties['HT'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (KG/Ton)</th>\
+                        <th scope="row">Volume Produksi</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Prosentase Pengiriman</th>\
                         <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                </table>';
+                    </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
@@ -1704,26 +1733,30 @@
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td> </td>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HA'] !== null ? autolinker.link(feature.properties['HA'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HT'] !== null ? autolinker.link(feature.properties['HT'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (KG/Ton)</th>\
+                        <th scope="row">Volume Produksi</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Prosentase Pengiriman</th>\
                         <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                </table>';
+                    </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
@@ -1777,26 +1810,30 @@
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td> </td>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HA'] !== null ? autolinker.link(feature.properties['HA'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HT'] !== null ? autolinker.link(feature.properties['HT'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (KG/Ton)</th>\
+                        <th scope="row">Volume Produksi</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Prosentase Pengiriman</th>\
                         <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                </table>';
+                    </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
@@ -1808,22 +1845,34 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 1.0,
+                weight: 8.0,
                 fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        function style_DagingSapiFIX2_16_1() {
+            return {
+                pane: 'pane_DagingSapiFIX2_16',
+                interactive: true,
+            }
+        }
+        function style_DagingSapiFIX2_16_2() {
+            return {
+                pane: 'pane_DagingSapiFIX2_16',
                 interactive: true,
             }
         }
         map.createPane('pane_DagingSapiFIX2_16');
         map.getPane('pane_DagingSapiFIX2_16').style.zIndex = 416;
         map.getPane('pane_DagingSapiFIX2_16').style['mix-blend-mode'] = 'normal';
-        var layer_DagingSapiFIX2_16 = new L.geoJson(json_DagingSapiFIX2_16, {
+        var layer_DagingSapiFIX2_16 = new L.geoJson.multiStyle(json_DagingSapiFIX2_16, {
             attribution: '',
             interactive: true,
             dataVar: 'json_DagingSapiFIX2_16',
             layerName: 'layer_DagingSapiFIX2_16',
             pane: 'pane_DagingSapiFIX2_16',
             onEachFeature: pop_DagingSapiFIX2_16,
-            style: style_DagingSapiFIX2_16_0,
+            styles: [style_DagingSapiFIX2_16_0,style_DagingSapiFIX2_16_1,style_DagingSapiFIX2_16_2,]
         });
         bounds_group.addLayer(layer_DagingSapiFIX2_16);
         map.addLayer(layer_DagingSapiFIX2_16);
@@ -1838,26 +1887,30 @@
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td> </td>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HA'] !== null ? autolinker.link(feature.properties['HA'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HT'] !== null ? autolinker.link(feature.properties['HT'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (KG/Ton)</th>\
+                        <th scope="row">Volume Produksi</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Prosentase Pengiriman</th>\
                         <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                </table>';
+                    </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
@@ -1911,26 +1964,30 @@
                         <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td> </td>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HA'] !== null ? autolinker.link(feature.properties['HA'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
                         <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
+                        <th scope="row">Harga Eceran</th>\
+                        <td>' + (feature.properties['HT'] !== null ? autolinker.link(feature.properties['HT'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
                         <th scope="row">Pelaku Pasar</th>\
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (KG/Ton)</th>\
+                        <th scope="row">Volume Produksi</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Prosentase Pengiriman</th>\
                         <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                </table>';
+                    </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 

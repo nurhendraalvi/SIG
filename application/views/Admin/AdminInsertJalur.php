@@ -201,6 +201,11 @@
                           </td>
                         </tr>
                         <tr>
+                          <td>Harga Ecerah Asal</td>
+                          <td>:</td>
+                          <td colspan="9"><input type="number" name="hasal" class="form-control form-control-user" placeholder="Enter year... "></td>
+                        </tr>
+                        <tr>
                           <td>Tujuan</td>
                           <td>:</td>
                           <td colspan="9">
@@ -213,6 +218,11 @@
                                 <option value="Sleman">Sleman</option>
                               </select>
                           </td>
+                        </tr>
+                        <tr>
+                          <td>Harga Ecerah Tujuan</td>
+                          <td>:</td>
+                          <td colspan="9"><input type="number" name="hatu" class="form-control form-control-user" placeholder="Enter year... "></td>
                         </tr>
                         <tr>
                           <td>Komoditas</td>

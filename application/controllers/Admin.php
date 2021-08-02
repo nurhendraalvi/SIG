@@ -68,14 +68,18 @@ class Admin extends CI_Controller
 	public function insertData2(){
 		$aktor = $_POST['aktor'];
 		$Asal = $_POST['asal'];
+		$HASAL = $_POST['hasal'];
 		$Tujuan = $_POST['tujuan'];
+		$HATU = $_POST['hatu'];
 		$Komoditas = $_POST['komoditas'];
 		$produksi = $_POST['jml'];
 		$persen = $_POST['prosentase'];
 		$thn = $_POST['year'];
 		$data = array(
 			'Asal' => $Asal,
+			'Harga_Asal' => $HASAL,
 			'Tujuan' => $Tujuan,
+			'Harga_Tujuan' => $HATU,
 			'Distributor' => $aktor,
 			'Tahun' => $thn,
 			'komoditas' => $Komoditas,
