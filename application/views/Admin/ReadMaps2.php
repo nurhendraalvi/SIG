@@ -193,10 +193,11 @@
         <script src="<?php echo base_url().'/GIS3/data/UbiKayuFIX2_11.js'?>"></script>
         <script src="<?php echo base_url().'/GIS3/data/DagingAyamFIX2_12.js'?>"></script>
         <script src="<?php echo base_url().'/GIS3/data/BawangMerahFIX2_13.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/CabaiMerahFIX_14.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/DagingSapiFIX2_15.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/GulaFix2_16.js'?>"></script>
-        <script src="<?php echo base_url().'/GIS3/data/TelurAyamFix2_17.js'?>"></script>>
+        <script src="<?php echo base_url().'/GIS3/data/CabaiRawitFIX2_14.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/CabaiMerahFIX_15.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/DagingSapiFIX2_16.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/GulaFix2_17.js'?>"></script>
+        <script src="<?php echo base_url().'/GIS3/data/TelurAyamFix2_18.js'?>"></script>
         <script>
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
@@ -1278,7 +1279,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td>' '</td>\
+                        <td> </td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
@@ -1289,7 +1290,7 @@
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (Kg)</th>\
+                        <th scope="row">Volume Produksi (KG/Ton)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1351,7 +1352,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td>' '</td>\
+                        <td> </td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
@@ -1362,7 +1363,7 @@
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (Kg)</th>\
+                        <th scope="row">Volume Produksi (KG/Ton)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1412,7 +1413,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td>' '</td>\
+                        <td> </td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
@@ -1423,7 +1424,7 @@
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (Kg)</th>\
+                        <th scope="row">Volume Produksi (KG/Ton)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1485,7 +1486,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td>' '</td>\
+                        <td> </td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
@@ -1496,7 +1497,7 @@
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (Kg)</th>\
+                        <th scope="row">Volume Produksi (KG/Ton)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1558,7 +1559,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td>' '</td>\
+                        <td> </td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
@@ -1569,7 +1570,7 @@
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (Kg)</th>\
+                        <th scope="row">Volume Produksi (KG/Ton)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1619,7 +1620,7 @@
         });
         bounds_group.addLayer(layer_BawangMerahFIX2_13);
         map.addLayer(layer_BawangMerahFIX2_13);
-        function pop_CabaiMerahFIX_14(feature, layer) {
+        function pop_CabaiRawitFIX2_14(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Komoditas</th>\
@@ -1631,7 +1632,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td>' '</td>\
+                        <td> </td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
@@ -1642,7 +1643,7 @@
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (Kg)</th>\
+                        <th scope="row">Volume Produksi (KG/Ton)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1653,9 +1654,9 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_CabaiMerahFIX_14_0() {
+        function style_CabaiRawitFIX2_14_0() {
             return {
-                pane: 'pane_CabaiMerahFIX_14',
+                pane: 'pane_CabaiRawitFIX2_14',
                 opacity: 1,
                 color: 'rgba(152,125,183,1.0)',
                 dashArray: '',
@@ -1666,33 +1667,33 @@
                 interactive: true,
             }
         }
-        function style_CabaiMerahFIX_14_1() {
+        function style_CabaiRawitFIX2_14_1() {
             return {
-                pane: 'pane_CabaiMerahFIX_14',
+                pane: 'pane_CabaiRawitFIX2_14',
                 interactive: true,
             }
         }
-        function style_CabaiMerahFIX_14_2() {
+        function style_CabaiRawitFIX2_14_2() {
             return {
-                pane: 'pane_CabaiMerahFIX_14',
+                pane: 'pane_CabaiRawitFIX2_14',
                 interactive: true,
             }
         }
-        map.createPane('pane_CabaiMerahFIX_14');
-        map.getPane('pane_CabaiMerahFIX_14').style.zIndex = 414;
-        map.getPane('pane_CabaiMerahFIX_14').style['mix-blend-mode'] = 'normal';
-        var layer_CabaiMerahFIX_14 = new L.geoJson.multiStyle(json_CabaiMerahFIX_14, {
+        map.createPane('pane_CabaiRawitFIX2_14');
+        map.getPane('pane_CabaiRawitFIX2_14').style.zIndex = 414;
+        map.getPane('pane_CabaiRawitFIX2_14').style['mix-blend-mode'] = 'normal';
+        var layer_CabaiRawitFIX2_14 = new L.geoJson.multiStyle(json_CabaiRawitFIX2_14, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_CabaiMerahFIX_14',
-            layerName: 'layer_CabaiMerahFIX_14',
-            pane: 'pane_CabaiMerahFIX_14',
-            onEachFeature: pop_CabaiMerahFIX_14,
-            styles: [style_CabaiMerahFIX_14_0,style_CabaiMerahFIX_14_1,style_CabaiMerahFIX_14_2,]
+            dataVar: 'json_CabaiRawitFIX2_14',
+            layerName: 'layer_CabaiRawitFIX2_14',
+            pane: 'pane_CabaiRawitFIX2_14',
+            onEachFeature: pop_CabaiRawitFIX2_14,
+            styles: [style_CabaiRawitFIX2_14_0,style_CabaiRawitFIX2_14_1,style_CabaiRawitFIX2_14_2,]
         });
-        bounds_group.addLayer(layer_CabaiMerahFIX_14);
-        map.addLayer(layer_CabaiMerahFIX_14);
-        function pop_DagingSapiFIX2_15(feature, layer) {
+        bounds_group.addLayer(layer_CabaiRawitFIX2_14);
+        map.addLayer(layer_CabaiRawitFIX2_14);
+        function pop_CabaiMerahFIX_15(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Komoditas</th>\
@@ -1704,7 +1705,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td>' '</td>\
+                        <td> </td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
@@ -1715,7 +1716,7 @@
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (Kg)</th>\
+                        <th scope="row">Volume Produksi (KG/Ton)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1726,9 +1727,82 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_DagingSapiFIX2_15_0() {
+        function style_CabaiMerahFIX_15_0() {
             return {
-                pane: 'pane_DagingSapiFIX2_15',
+                pane: 'pane_CabaiMerahFIX_15',
+                opacity: 1,
+                color: 'rgba(152,125,183,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 8.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        function style_CabaiMerahFIX_15_1() {
+            return {
+                pane: 'pane_CabaiMerahFIX_15',
+                interactive: true,
+            }
+        }
+        function style_CabaiMerahFIX_15_2() {
+            return {
+                pane: 'pane_CabaiMerahFIX_15',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_CabaiMerahFIX_15');
+        map.getPane('pane_CabaiMerahFIX_15').style.zIndex = 415;
+        map.getPane('pane_CabaiMerahFIX_15').style['mix-blend-mode'] = 'normal';
+        var layer_CabaiMerahFIX_15 = new L.geoJson.multiStyle(json_CabaiMerahFIX_15, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_CabaiMerahFIX_15',
+            layerName: 'layer_CabaiMerahFIX_15',
+            pane: 'pane_CabaiMerahFIX_15',
+            onEachFeature: pop_CabaiMerahFIX_15,
+            styles: [style_CabaiMerahFIX_15_0,style_CabaiMerahFIX_15_1,style_CabaiMerahFIX_15_2,]
+        });
+        bounds_group.addLayer(layer_CabaiMerahFIX_15);
+        map.addLayer(layer_CabaiMerahFIX_15);
+        function pop_DagingSapiFIX2_16(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">Komoditas</th>\
+                        <td>' + (feature.properties['Komoditas'] !== null ? autolinker.link(feature.properties['Komoditas'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Asal</th>\
+                        <td>' + (feature.properties['Asal'] !== null ? autolinker.link(feature.properties['Asal'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Harga Eceran (Rupiah)</th>\
+                        <td> </td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Tujuan</th>\
+                        <td>' + (feature.properties['Tujuan'] !== null ? autolinker.link(feature.properties['Tujuan'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Pelaku Pasar</th>\
+                        <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Volume Produksi (KG/Ton)</th>\
+                        <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Prosentase Pengiriman</th>\
+                        <td>' + (feature.properties['Pengiriman'] !== null ? autolinker.link(feature.properties['Pengiriman'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_DagingSapiFIX2_16_0() {
+            return {
+                pane: 'pane_DagingSapiFIX2_16',
                 opacity: 1,
                 color: 'rgba(190,207,80,1.0)',
                 dashArray: '',
@@ -1739,21 +1813,21 @@
                 interactive: true,
             }
         }
-        map.createPane('pane_DagingSapiFIX2_15');
-        map.getPane('pane_DagingSapiFIX2_15').style.zIndex = 415;
-        map.getPane('pane_DagingSapiFIX2_15').style['mix-blend-mode'] = 'normal';
-        var layer_DagingSapiFIX2_15 = new L.geoJson(json_DagingSapiFIX2_15, {
+        map.createPane('pane_DagingSapiFIX2_16');
+        map.getPane('pane_DagingSapiFIX2_16').style.zIndex = 416;
+        map.getPane('pane_DagingSapiFIX2_16').style['mix-blend-mode'] = 'normal';
+        var layer_DagingSapiFIX2_16 = new L.geoJson(json_DagingSapiFIX2_16, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_DagingSapiFIX2_15',
-            layerName: 'layer_DagingSapiFIX2_15',
-            pane: 'pane_DagingSapiFIX2_15',
-            onEachFeature: pop_DagingSapiFIX2_15,
-            style: style_DagingSapiFIX2_15_0,
+            dataVar: 'json_DagingSapiFIX2_16',
+            layerName: 'layer_DagingSapiFIX2_16',
+            pane: 'pane_DagingSapiFIX2_16',
+            onEachFeature: pop_DagingSapiFIX2_16,
+            style: style_DagingSapiFIX2_16_0,
         });
-        bounds_group.addLayer(layer_DagingSapiFIX2_15);
-        map.addLayer(layer_DagingSapiFIX2_15);
-        function pop_GulaFix2_16(feature, layer) {
+        bounds_group.addLayer(layer_DagingSapiFIX2_16);
+        map.addLayer(layer_DagingSapiFIX2_16);
+        function pop_GulaFix2_17(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Komoditas</th>\
@@ -1765,7 +1839,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td>' '</td>\
+                        <td> </td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
@@ -1776,7 +1850,7 @@
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (Kg)</th>\
+                        <th scope="row">Volume Produksi (KG/Ton)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1787,9 +1861,9 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_GulaFix2_16_0() {
+        function style_GulaFix2_17_0() {
             return {
-                pane: 'pane_GulaFix2_16',
+                pane: 'pane_GulaFix2_17',
                 opacity: 1,
                 color: 'rgba(225,89,137,1.0)',
                 dashArray: '',
@@ -1800,33 +1874,33 @@
                 interactive: true,
             }
         }
-        function style_GulaFix2_16_1() {
+        function style_GulaFix2_17_1() {
             return {
-                pane: 'pane_GulaFix2_16',
+                pane: 'pane_GulaFix2_17',
                 interactive: true,
             }
         }
-        function style_GulaFix2_16_2() {
+        function style_GulaFix2_17_2() {
             return {
-                pane: 'pane_GulaFix2_16',
+                pane: 'pane_GulaFix2_17',
                 interactive: true,
             }
         }
-        map.createPane('pane_GulaFix2_16');
-        map.getPane('pane_GulaFix2_16').style.zIndex = 416;
-        map.getPane('pane_GulaFix2_16').style['mix-blend-mode'] = 'normal';
-        var layer_GulaFix2_16 = new L.geoJson.multiStyle(json_GulaFix2_16, {
+        map.createPane('pane_GulaFix2_17');
+        map.getPane('pane_GulaFix2_17').style.zIndex = 417;
+        map.getPane('pane_GulaFix2_17').style['mix-blend-mode'] = 'normal';
+        var layer_GulaFix2_17 = new L.geoJson.multiStyle(json_GulaFix2_17, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_GulaFix2_16',
-            layerName: 'layer_GulaFix2_16',
-            pane: 'pane_GulaFix2_16',
-            onEachFeature: pop_GulaFix2_16,
-            styles: [style_GulaFix2_16_0,style_GulaFix2_16_1,style_GulaFix2_16_2,]
+            dataVar: 'json_GulaFix2_17',
+            layerName: 'layer_GulaFix2_17',
+            pane: 'pane_GulaFix2_17',
+            onEachFeature: pop_GulaFix2_17,
+            styles: [style_GulaFix2_17_0,style_GulaFix2_17_1,style_GulaFix2_17_2,]
         });
-        bounds_group.addLayer(layer_GulaFix2_16);
-        map.addLayer(layer_GulaFix2_16);
-        function pop_TelurAyamFix2_17(feature, layer) {
+        bounds_group.addLayer(layer_GulaFix2_17);
+        map.addLayer(layer_GulaFix2_17);
+        function pop_TelurAyamFix2_18(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
                         <th scope="row">Komoditas</th>\
@@ -1838,7 +1912,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Harga Eceran (Rupiah)</th>\
-                        <td>' '</td>\
+                        <td> </td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Tujuan</th>\
@@ -1849,7 +1923,7 @@
                         <td>' + (feature.properties['Aktor'] !== null ? autolinker.link(feature.properties['Aktor'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Volume Produksi (Kg)</th>\
+                        <th scope="row">Volume Produksi (KG/Ton)</th>\
                         <td>' + (feature.properties['VProduksi'] !== null ? autolinker.link(feature.properties['VProduksi'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -1860,9 +1934,9 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_TelurAyamFix2_17_0() {
+        function style_TelurAyamFix2_18_0() {
             return {
-                pane: 'pane_TelurAyamFix2_17',
+                pane: 'pane_TelurAyamFix2_18',
                 opacity: 1,
                 color: 'rgba(229,182,54,1.0)',
                 dashArray: '',
@@ -1873,34 +1947,34 @@
                 interactive: true,
             }
         }
-        function style_TelurAyamFix2_17_1() {
+        function style_TelurAyamFix2_18_1() {
             return {
-                pane: 'pane_TelurAyamFix2_17',
+                pane: 'pane_TelurAyamFix2_18',
                 interactive: true,
             }
         }
-        function style_TelurAyamFix2_17_2() {
+        function style_TelurAyamFix2_18_2() {
             return {
-                pane: 'pane_TelurAyamFix2_17',
+                pane: 'pane_TelurAyamFix2_18',
                 interactive: true,
             }
         }
-        map.createPane('pane_TelurAyamFix2_17');
-        map.getPane('pane_TelurAyamFix2_17').style.zIndex = 417;
-        map.getPane('pane_TelurAyamFix2_17').style['mix-blend-mode'] = 'normal';
-        var layer_TelurAyamFix2_17 = new L.geoJson.multiStyle(json_TelurAyamFix2_17, {
+        map.createPane('pane_TelurAyamFix2_18');
+        map.getPane('pane_TelurAyamFix2_18').style.zIndex = 418;
+        map.getPane('pane_TelurAyamFix2_18').style['mix-blend-mode'] = 'normal';
+        var layer_TelurAyamFix2_18 = new L.geoJson.multiStyle(json_TelurAyamFix2_18, {
             attribution: '',
             interactive: true,
-            dataVar: 'json_TelurAyamFix2_17',
-            layerName: 'layer_TelurAyamFix2_17',
-            pane: 'pane_TelurAyamFix2_17',
-            onEachFeature: pop_TelurAyamFix2_17,
-            styles: [style_TelurAyamFix2_17_0,style_TelurAyamFix2_17_1,style_TelurAyamFix2_17_2,]
+            dataVar: 'json_TelurAyamFix2_18',
+            layerName: 'layer_TelurAyamFix2_18',
+            pane: 'pane_TelurAyamFix2_18',
+            onEachFeature: pop_TelurAyamFix2_18,
+            styles: [style_TelurAyamFix2_18_0,style_TelurAyamFix2_18_1,style_TelurAyamFix2_18_2,]
         });
-        bounds_group.addLayer(layer_TelurAyamFix2_17);
-        map.addLayer(layer_TelurAyamFix2_17);
+        bounds_group.addLayer(layer_TelurAyamFix2_18);
+        map.addLayer(layer_TelurAyamFix2_18);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'Telur Ayam': layer_TelurAyamFix2_17,'Gula': layer_GulaFix2_16,'Daging Sapi': layer_DagingSapiFIX2_15,'Cabai Merah': layer_CabaiMerahFIX_14,'Bawang Merah': layer_BawangMerahFIX2_13,'Daging Ayam': layer_DagingAyamFIX2_12,'Ubi Kayu': layer_UbiKayuFIX2_11,'Jagung': layer_jagungfix2_10,'Beras': layer_BerasFix2_9,'Jateng Point': layer_JatengPoint_8,'DIY Point': layer_DIYPoint_7,'Kulon Progo<br />': layer_KulonProgoKec_6,'Yogyakarta<br />': layer_YogyakartaKec_5,'Bantul<br />': layer_BantulKec_4,'Gunung Kidul<br />': layer_GunungKidulKec_3,'Sleman<br />': layer_SlemanKecSample_2,'DIY Layer<br />': layer_DIYCombine_1,"OpenStreetMap": layer_OpenStreetMap_0,}).addTo(map);
+        L.control.layers(baseMaps,{'Telur Ayam': layer_TelurAyamFix2_18,'Gula': layer_GulaFix2_17,'Daging Sapi': layer_DagingSapiFIX2_16,'Cabai Merah': layer_CabaiMerahFIX_15,'Cabai Rawit': layer_CabaiRawitFIX2_14,'Bawang Merah': layer_BawangMerahFIX2_13,'Daging Ayam': layer_DagingAyamFIX2_12,'Ubi Kayu': layer_UbiKayuFIX2_11,'Jagung': layer_jagungfix2_10,'Beras': layer_BerasFix2_9,'Jateng Point': layer_JatengPoint_8,'DIY Point': layer_DIYPoint_7,'Kulon Progo<br />': layer_KulonProgoKec_6,'Yogyakarta<br />': layer_YogyakartaKec_5,'Bantul<br />': layer_BantulKec_4,'Gunung Kidul<br />': layer_GunungKidulKec_3,'Sleman<br />': layer_SlemanKecSample_2,'DIY Layer<br />': layer_DIYCombine_1,"OpenStreetMap": layer_OpenStreetMap_0,}).addTo(map);
         setBounds();
         </script>            
         </div>
