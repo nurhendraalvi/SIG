@@ -4786,6 +4786,7 @@
         });
         bounds_group.addLayer(layer_JatengPoint_13);
         map.addLayer(layer_JatengPoint_13);
+        var baseMaps = {};
         L.control.layers(baseMaps,{'Jateng Point': layer_JatengPoint_13,'DIY Point': layer_DIYPoint_12,'DIY Telur Ayam <br />': layer_DIYTelurAyam_11,'DIY Daging Ayam<br/>': layer_DIYDagingAyam_10,'DIY Daging Sapi<br/>': layer_DIYDagingSapi_9,'DIY Gula Pasir<br/>': layer_DIYGula_8,'DIY Cabai Rawit<br />': layer_DIYCabaiRawit_7,'DIY Bawang Merah<br />': layer_DIYBawangMerah_6,'DIY Cabai Merah<br />': layer_DIYCabaiMerah_5,'DIY Jagung<br />': layer_DIYJagung_4,'DIY Ubi Kayu<br />': layer_DIYUbiKayu_3,'DIY Beras<br />': layer_DIYBeras_2,'DIY layer<br />': layer_DIYCombine_1,"OpenStreetMap": layer_OpenStreetMap_0,}).addTo(map);
         setBounds();
         </script>           
