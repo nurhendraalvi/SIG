@@ -636,7 +636,6 @@
             style: style_DIYUbiKayu_3_0,
         });
         bounds_group.addLayer(layer_DIYUbiKayu_3);
-        map.addLayer(layer_DIYUbiKayu_3);
         function pop_DIYJagung_4(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -822,7 +821,6 @@
             style: style_DIYJagung_4_0,
         });
         bounds_group.addLayer(layer_DIYJagung_4);
-        map.addLayer(layer_DIYJagung_4);
         function pop_DIYCabaiMerah_5(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -1293,7 +1291,6 @@
             style: style_DIYCabaiMerah_5_0,
         });
         bounds_group.addLayer(layer_DIYCabaiMerah_5);
-        map.addLayer(layer_DIYCabaiMerah_5);
         function pop_DIYBawangMerah_6(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -1689,7 +1686,6 @@
             style: style_DIYBawangMerah_6_0,
         });
         bounds_group.addLayer(layer_DIYBawangMerah_6);
-        map.addLayer(layer_DIYBawangMerah_6);
         function pop_DIYCabaiRawit_7(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -2100,7 +2096,6 @@
             style: style_DIYCabaiRawit_7_0,
         });
         bounds_group.addLayer(layer_DIYCabaiRawit_7);
-        map.addLayer(layer_DIYCabaiRawit_7);
         function pop_DIYGula_8(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -2586,7 +2581,6 @@
             style: style_DIYGula_8_0,
         });
         bounds_group.addLayer(layer_DIYGula_8);
-        map.addLayer(layer_DIYGula_8);
         function pop_DIYDagingSapi_9(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -3287,7 +3281,6 @@
             style: style_DIYDagingSapi_9_0,
         });
         bounds_group.addLayer(layer_DIYDagingSapi_9);
-        map.addLayer(layer_DIYDagingSapi_9);
         function pop_DIYDagingAyam_10(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -3958,7 +3951,6 @@
             style: style_DIYDagingAyam_10_0,
         });
         bounds_group.addLayer(layer_DIYDagingAyam_10);
-        map.addLayer(layer_DIYDagingAyam_10);
         function pop_DIYTelurAyam_11(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -4689,7 +4681,6 @@
             style: style_DIYTelurAyam_11_0,
         });
         bounds_group.addLayer(layer_DIYTelurAyam_11);
-        map.addLayer(layer_DIYTelurAyam_11);
         function pop_DIYPoint_12(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -4939,7 +4930,6 @@
             styles: [style_JagungFIX3_15_0,style_JagungFIX3_15_1,style_JagungFIX3_15_2,]
         });
         bounds_group.addLayer(layer_JagungFIX3_15);
-        map.addLayer(layer_JagungFIX3_15);
         function pop_UbiKayuFIX_16(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -5016,7 +5006,6 @@
             styles: [style_UbiKayuFIX_16_0,style_UbiKayuFIX_16_1,style_UbiKayuFIX_16_2,]
         });
         bounds_group.addLayer(layer_UbiKayuFIX_16);
-        map.addLayer(layer_UbiKayuFIX_16);
         function pop_DagingAyamFix3_17(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -5093,7 +5082,6 @@
             styles: [style_DagingAyamFix3_17_0,style_DagingAyamFix3_17_1,style_DagingAyamFix3_17_2,]
         });
         bounds_group.addLayer(layer_DagingAyamFix3_17);
-        map.addLayer(layer_DagingAyamFix3_17);
         function pop_BawangMerahFIX3_18(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -5170,7 +5158,6 @@
             styles: [style_BawangMerahFIX3_18_0,style_BawangMerahFIX3_18_1,style_BawangMerahFIX3_18_2,]
         });
         bounds_group.addLayer(layer_BawangMerahFIX3_18);
-        map.addLayer(layer_BawangMerahFIX3_18);
         function pop_CabaiRawitFIX2_19(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -5247,7 +5234,6 @@
             styles: [style_CabaiRawitFIX2_19_0,style_CabaiRawitFIX2_19_1,style_CabaiRawitFIX2_19_2,]
         });
         bounds_group.addLayer(layer_CabaiRawitFIX2_19);
-        map.addLayer(layer_CabaiRawitFIX2_19);
         function pop_CabaiMerahFIX2_20(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -5324,7 +5310,6 @@
             styles: [style_CabaiMerahFIX2_20_0,style_CabaiMerahFIX2_20_1,style_CabaiMerahFIX2_20_2,]
         });
         bounds_group.addLayer(layer_CabaiMerahFIX2_20);
-        map.addLayer(layer_CabaiMerahFIX2_20);
         function pop_DagingSapi_21(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -5401,7 +5386,6 @@
             styles: [style_DagingSapi_21_0,style_DagingSapi_21_1,style_DagingSapi_21_2,]
         });
         bounds_group.addLayer(layer_DagingSapi_21);
-        map.addLayer(layer_DagingSapi_21);
         function pop_GulaFIX3_22(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -5478,7 +5462,6 @@
             styles: [style_GulaFIX3_22_0,style_GulaFIX3_22_1,style_GulaFIX3_22_2,]
         });
         bounds_group.addLayer(layer_GulaFIX3_22);
-        map.addLayer(layer_GulaFIX3_22);
         function pop_TelurAyamFix3_23(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
@@ -5555,9 +5538,8 @@
             styles: [style_TelurAyamFix3_23_0,style_TelurAyamFix3_23_1,style_TelurAyamFix3_23_2,]
         });
         bounds_group.addLayer(layer_TelurAyamFix3_23);
-        map.addLayer(layer_TelurAyamFix3_23);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'Telur Ayam': layer_TelurAyamFix3_23,'Gula Pasir': layer_GulaFIX3_22,'Daging Sapi': layer_DagingSapi_21,'Cabai Merah': layer_CabaiMerahFIX2_20,'Cabai Rawit': layer_CabaiRawitFIX2_19,'Bawang Merah': layer_BawangMerahFIX3_18,'Daging Ayam': layer_DagingAyamFix3_17,'Ubi Kayu': layer_UbiKayuFIX_16,'Jagung': layer_JagungFIX3_15,'Beras': layer_BerasFIX4_14,'Jateng Point': layer_JatengPoint_13,'DIY Point': layer_DIYPoint_12,'DIY Telur Ayam <br />': layer_DIYTelurAyam_11,'DIY Daging Ayam<br/>': layer_DIYDagingAyam_10,'DIY Daging Sapi<br/>': layer_DIYDagingSapi_9,'DIY Gula Pasir<br/>': layer_DIYGula_8,'DIY Cabai Rawit<br />': layer_DIYCabaiRawit_7,'DIY Bawang Merah<br />': layer_DIYBawangMerah_6,'DIY Cabai Merah<br />': layer_DIYCabaiMerah_5,'DIY Jagung<br />': layer_DIYJagung_4,'DIY Ubi Kayu<br />': layer_DIYUbiKayu_3,'DIY Beras<br />': layer_DIYBeras_2,'DIY layer<br />': layer_DIYCombine_1,"OpenStreetMap": layer_OpenStreetMap_0,}).addTo(map);
+        L.control.layers(baseMaps,{'Beras': layer_BerasFIX4_14,'Telur Ayam': layer_TelurAyamFix3_23,'Gula Pasir': layer_GulaFIX3_22,'Daging Sapi': layer_DagingSapi_21,'Cabai Merah': layer_CabaiMerahFIX2_20,'Cabai Rawit': layer_CabaiRawitFIX2_19,'Bawang Merah': layer_BawangMerahFIX3_18,'Daging Ayam': layer_DagingAyamFix3_17,'Ubi Kayu': layer_UbiKayuFIX_16,'Jagung': layer_JagungFIX3_15,'Jateng Point': layer_JatengPoint_13,'DIY Point': layer_DIYPoint_12,'DIY Telur Ayam <br />': layer_DIYTelurAyam_11,'DIY Daging Ayam<br/>': layer_DIYDagingAyam_10,'DIY Daging Sapi<br/>': layer_DIYDagingSapi_9,'DIY Gula Pasir<br/>': layer_DIYGula_8,'DIY Cabai Rawit<br />': layer_DIYCabaiRawit_7,'DIY Bawang Merah<br />': layer_DIYBawangMerah_6,'DIY Cabai Merah<br />': layer_DIYCabaiMerah_5,'DIY Jagung<br />': layer_DIYJagung_4,'DIY Ubi Kayu<br />': layer_DIYUbiKayu_3,'DIY Beras<br />': layer_DIYBeras_2,'DIY layer<br />': layer_DIYCombine_1,"OpenStreetMap": layer_OpenStreetMap_0,}).addTo(map);
         setBounds();
         </script>           
         </div>
